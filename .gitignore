@@ -1,0 +1,21 @@
+# This tells Git which files to not save
+# Raw and processed data
+data/raw/
+data/processed/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# temporary environments created by python
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
